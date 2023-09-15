@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 20px;
+    height: 90vh;
+    background-image: linear-gradient(134deg, #0c0091 0%, #00a87e 100%);
+    padding: 0 60px;
+}
+.design{
+    
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+}
+h1{
+    font-family: Rubik, "Helvetica Neue", Helvetica, Helvetica;   
+}
+
+.backgroundimg {
+    width:450px;
+    padding-top: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+}
+.devspace{
+    color: white;
+    padding-left: 20px;
+    /* margin-top: 70px; */
+    font-weight: bold;
+    font-family: Rubik, "Helvetica Neue", Helvetica, Helvetica;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.container{
+    background-color: transparent;
+    margin: 20px 0;
+    color: white;
+}
+.container a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px ;
+}
+.download{
+    color: white;
+    background-color: #13bd93;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.lorem{
+    color: white;
+    padding-left: 50px;
+}
+h1{
+    color: #06f8bc;
+    font-size: 60px;
+    margin-top: 20px;
+}
+p{
+    margin: 20px 20px;
+}
+.project{
+   color: white; 
+   background-color: transparent;
+   padding: 10px 15px ;
+   border: 1px solid white;
+   margin-top: 40px;
+}
+.trusted{
+    background-color: rgb(240, 232, 232);
+    text-align: center;
+    color: gray;
+    border-bottom: 1px solid grey;
+    width: fit-content;
+    margin: auto;
+    padding-top: 30px;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    gap: 20px; 
+}
+.logo img{
+    height: 40px;
+}
+.section2{
+    background-color:rgb(240, 232, 232) ;
+}
+.what{
+    border-bottom: 1px solid rgb(241, 227, 227); 
+    width: fit-content;
+    color: rgb(153, 131, 131);
+    margin: auto ;
+    padding-top: 30px;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 120px ;
+    gap: 30px;
+}
+.learn{
+    color: rgb(29, 29, 191);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.box{
+    background-color: #1a137c;
+    height: fit-content;
+}
+.how{
+    border-bottom: 1px solid gray;
+    width: fit-content;
+    margin: auto;
+    padding-top: 50px;
+    color: white;
+}
+.reliable{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.allbox{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    box-sizing: border-box;  
+}
+.pro{
+    border-bottom: 1px solid rgb(235, 225, 225);
+    text-align: center;
+    padding: 20px;
+}
+.all{ 
+    background-color: white;
+    text-align: center;
+    height: fit-content;
+    padding: 30px;
+}
+.ton{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+.meet{
+border-bottom: 1px solid rgb(228, 221, 221);
+margin: auto;
+width: fit-content;
+padding-top: 30px;
+margin-bottom: 20px;
+color: gray;
+}
+
+.image{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    text-align: center;
+    color: rgb(121, 14, 221);
+    font-weight: bolder;
+    padding-top:20px ;
+    padding-bottom: 5px;
+}
+.section4{
+    background-color: rgb(250, 241, 241);
+}
+.specialization{
+    text-align: center;
+    color: rgb(75, 68, 68);
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .design{
+        display: block;
+    }
+    .header {
+        display: bloc;
+    }
+    .logo{
+        padding: 20px 20px;
+    }
+    .section{
+        display: block;
+        padding: 28px 50px ;
+    }
+    .allbox{
+        display: block;
+    }
+    .image{
+        display: block;
+        text-align: center;
+    }
+    header{
+        height: fit-content;
+    }
+    .logo img{
+        height: 30px;
+    }
+    .reliable{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .backgroundimg {
+        width:108%;
+    }
+    .lorem{
+        padding-left: 0;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .logo img{
+        height: 20px;
+    
+    }
+}
+
+
+
+
